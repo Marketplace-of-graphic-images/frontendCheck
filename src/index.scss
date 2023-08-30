@@ -1,0 +1,9 @@
+@use './globalStyle/normalize';
+@use './app/App.scss';
+@use './globalStyle/mixins.scss';
+@use './fonts/raleway.scss';
+@use './fonts/roboto.scss';
+@use './ui-lib/Button/PopularButton/PopularButton.module.scss';
+* {
+  box-sizing: border-box;
+}

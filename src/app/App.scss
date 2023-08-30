@@ -1,0 +1,12 @@
+@use '../globalStyle/variables' as v;
+@use '../globalStyle/mixins.scss' as m;
+@include m.fonts('Roboto-Thin', normal, 100, '../fonts/Roboto/', '.woff2');
+
+.popups-container {
+  z-index: 10;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
